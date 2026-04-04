@@ -1,4 +1,5 @@
-# Awesome Social Network Simulation: From Small Worlds to Agentic AI
+<!-- # Awesome Social Network Simulation: From Small Worlds to Agentic AI -->
+# Awesome Social Network Simulation: From Random Graphs to Generative Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-sns?style=social)](https://github.com/tamlhp/awesome-sns/stargazers)
