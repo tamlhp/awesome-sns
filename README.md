@@ -37,7 +37,7 @@ If you use this repository, please cite the survey manuscript. A public DOI or f
 
 ## Taxonomy
 
-![Hierarchical taxonomy of social network simulation](figs/sns-taxonomy.png)
+![Hierarchical taxonomy of social network simulation](figs/sns-matrix.png)
 
 The survey organizes the field into five paradigm families:
 
