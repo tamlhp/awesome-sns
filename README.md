@@ -2,6 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-sns?style=social)](https://github.com/tamlhp/awesome-sns/stargazers)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-sns)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
 Companion repository for the survey **A Survey of Social Network Simulation: From Small Worlds to Agentic AI** by Trinh Pham, Quoc Viet Hung Nguyen, Hongzhi Yin, and Thanh Tam Nguyen.
@@ -19,11 +20,24 @@ The manuscript metadata currently still contains placeholder ACM DOI and venue f
 - [Datasets and Benchmarks](#datasets-and-benchmarks)
 - [Evaluation Metrics](#evaluation-metrics)
 - [Contributing](#contributing)
-- [Citation](#citation)
+
+## Citation
+
+If you use this repository, please cite the survey manuscript. A public DOI or finalized venue entry will be added once the paper metadata is finalized.
+
+```bibtex
+@misc{pham2026social-network-simulation,
+  title = {A Survey of Social Network Simulation: From Small Worlds to Agentic AI},
+  author = {Pham, Trinh and Nguyen, Quoc Viet Hung and Yin, Hongzhi and Nguyen, Thanh Tam},
+  year = {2026},
+  note = {Survey manuscript},
+  url = {https://github.com/tamlhp/awesome-sns}
+}
+```
 
 ## Taxonomy
 
-![Hierarchical taxonomy of social network simulation](figs/sns-taxonomy.png)
+![Hierarchical taxonomy of social network simulation](figs/sns-matrix.png)
 
 The survey organizes the field into five paradigm families:
 
@@ -225,16 +239,8 @@ Contributions are welcome if they keep the repository aligned with the survey ta
 - Prefer official paper, code, and dataset links when available.
 - Do not add unverified publication status, DOI claims, or speculative code links.
 
-## Citation
 
-If you use this repository, please cite the survey manuscript. A public DOI or finalized venue entry will be added once the paper metadata is finalized.
+-----------
+**Backup Statistics**
 
-```bibtex
-@misc{pham2026social-network-simulation,
-  title = {A Survey of Social Network Simulation: From Small Worlds to Agentic AI},
-  author = {Pham, Trinh and Nguyen, Quoc Viet Hung and Yin, Hongzhi and Nguyen, Thanh Tam},
-  year = {2026},
-  note = {Survey manuscript},
-  url = {https://github.com/tamlhp/awesome-sns}
-}
-```
+![Visitors](https://margherita-gustatory-zane.ngrok-free.dev/badge/tamlhp%2Fawesome-sns.svg?ngrok-skip-browser-warning=true)
