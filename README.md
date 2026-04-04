@@ -1,15 +1,15 @@
-# Awesome Social Network Simulation
+# Awesome Social Network Simulation: From Small Worlds to Agentic AI
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-sns?style=social)](https://github.com/tamlhp/awesome-sns/stargazers)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-sns)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
-Companion repository for the survey **A Survey of Social Network Simulation: From Small Worlds to Agentic AI** by Trinh Pham, Quoc Viet Hung Nguyen, Hongzhi Yin, and Thanh Tam Nguyen.
+A collection of academic articles, published methodology, and datasets on the subject of **Social Network Simulation** from classical models to LLM-based agentic simulation.
 
-This README follows the manuscript structure directly: five paradigm sections with one paper table per paradigm, followed by dedicated dataset/benchmark and evaluation-metric sections. The survey spans 97 papers across 1951-2026, five application domains, 38 implementations, 21 benchmarks/datasets, and 22 evaluation metrics.
+<!-- This README follows the manuscript structure directly: five paradigm sections with one paper table per paradigm, followed by dedicated dataset/benchmark and evaluation-metric sections. The survey spans 97 papers across 1951-2026, five application domains, 38 implementations, 21 benchmarks/datasets, and 22 evaluation metrics. -->
 
-The manuscript metadata currently still contains placeholder ACM DOI and venue fields, so this repository intentionally avoids unverified publication claims until a public paper link is finalized.
+<!-- The manuscript metadata currently still contains placeholder ACM DOI and venue fields, so this repository intentionally avoids unverified publication claims until a public paper link is finalized. -->
 
 - [Taxonomy](#taxonomy)
 - [Network Models](#network-models)
@@ -51,7 +51,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Network Models
 
-| Paper | Year | Category | Source |
+| Paper | Year | Category | Venue |
 | --- | --- | --- | --- |
 | On Random Graphs I | 1959 | Random Graph Models | Publicationes Mathematicae Debrecen |
 | The Structure and Function of Complex Networks | 2003 | Random Graph Models | SIAM Review |
@@ -67,7 +67,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Information Diffusion
 
-| Paper | Year | Category | Source |
+| Paper | Year | Category | Venue |
 | --- | --- | --- | --- |
 | Diffusion of Innovations | 1962 | Information Diffusion | Free Press of Glencoe |
 | Simulation Investigation of Rumor Propagation in Microblogging Community | 2011 | Epidemic Compartment Models | Computer Engineering |
@@ -99,7 +99,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Opinion Dynamics
 
-| Paper | Year | Category | Source |
+| Paper | Year | Category | Venue |
 | --- | --- | --- | --- |
 | A formal theory of social power | 1956 | Averaging Models: French-DeGroot and Friedkin-Johnsen | Psychological Review |
 | Reaching a Consensus | 1974 | Averaging Models: French-DeGroot and Friedkin-Johnsen | Journal of the American Statistical Association |
@@ -114,7 +114,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Rule-Based Agent-Based Models
 
-| Paper | Year | Category | Source |
+| Paper | Year | Category | Venue |
 | --- | --- | --- | --- |
 | Micromotives and Macrobehavior | 1978 | Schelling segregation | W. W. Norton & Company |
 | Growing Artificial Societies: Social Science from the Bottom Up | 1996 | Sugarscape | MIT Press |
@@ -140,7 +140,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## LLM-Based Agentic Simulation
 
-| Paper | Year | Category | Source |
+| Paper | Year | Category | Venue |
 | --- | --- | --- | --- |
 | Social Simulacra: Creating Populated Prototypes for Social Computing Systems | 2022 | Agent Architecture for Social Simulation | UIST |
 | Generative agents: Interactive simulacra of human behavior | 2023 | Agent Architecture for Social Simulation | UIST |
