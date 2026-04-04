@@ -230,14 +230,20 @@ The survey groups 22 evaluation metrics into seven core evaluation goals. The ta
 | Efficiency and Scalability | Confusion index, token reduction, wall-clock cost | Cost-fidelity trade-offs in large-scale simulation systems. |
 | Adversarial Robustness | Detector accuracy drop | Robustness against LLM-driven bots and adversarial social agents. |
 
-## Contributing
+## Disclaimer
+
+Feel free to contact us if you have any queries or exciting news on social network simulation. In addition, we welcome all researchers to contribute to this repository and further contribute to the knowledge of social network simulation fields. It would be great if contributions keep the repository aligned with the survey taxonomy
+
+If you have some other related references, please feel free to create a Github issue with the paper information. We will glady update the repos according to your suggestions. (You can also create pull requests, but it might take some time for us to do the merge)
+
+<!-- ## Contributing
 
 Contributions are welcome if they keep the repository aligned with the survey taxonomy.
 
 - Add papers under the correct paradigm section and keep the `Paper`, `Year`, `Category`, and `Source` columns populated.
 - Add datasets with platform and evaluation-task details, and add metrics with a clear description of what they measure.
 - Prefer official paper, code, and dataset links when available.
-- Do not add unverified publication status, DOI claims, or speculative code links.
+- Do not add unverified publication status, DOI claims, or speculative code links. -->
 
 
 -----------
