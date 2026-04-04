@@ -21,7 +21,7 @@ A collection of academic articles, published methodology, and datasets on the su
 - [Evaluation Metrics](#evaluation-metrics)
 - [Contributing](#contributing)
 
-## Citation
+<!-- ## Citation
 
 If you use this repository, please cite the survey manuscript. A public DOI or finalized venue entry will be added once the paper metadata is finalized.
 
@@ -33,7 +33,7 @@ If you use this repository, please cite the survey manuscript. A public DOI or f
   note = {Survey manuscript},
   url = {https://github.com/tamlhp/awesome-sns}
 }
-```
+``` -->
 
 ## Taxonomy
 
