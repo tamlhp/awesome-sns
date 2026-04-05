@@ -328,15 +328,140 @@ The survey catalogues 21 published datasets and benchmarks for validating struct
 
 The survey groups 22 evaluation metrics into seven core evaluation goals. The table below summarizes the metric families that recur throughout the paper.
 
-| Category | Representative Metrics | What They Measure |
-| --- | --- | --- |
-| Structural Fidelity | Degree distribution, clustering coefficient, average path length, assortativity | Whether generated graphs resemble real social-network topology. |
-| Dynamic and Temporal Fidelity | Pearson correlation, DTW, DeltaBias, DeltaDiversity | How closely simulated cascades and trajectories match empirical time series. |
-| Opinion and Polarization | Polarization `P_z`, global disagreement, neighbour correlation index, spectral gap | Consensus, fragmentation, echo chambers, and convergence speed. |
-| Diffusion and Influence | Reproduction number `R_0`, influence spread, cascade size | Whether and how widely content spreads through the network. |
-| Behavioral Alignment | Micro-F1, action-distribution KL/JS divergence, cosine similarity, state-level accuracy | Whether agent actions and content align with observed human behavior. |
-| Efficiency and Scalability | Confusion index, token reduction, wall-clock cost | Cost-fidelity trade-offs in large-scale simulation systems. |
-| Adversarial Robustness | Detector accuracy drop | Robustness against LLM-driven bots and adversarial social agents. |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Metric</th>
+      <th>Formula / Description</th>
+      <th>Usage</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="4">Structural Fidelity</td>
+      <td>Degree distribution</td>
+      <td><code>P(k) = Pr(deg(v)=k)</code>; scale-free often fits <code>P(k) ∝ k^{-γ}</code>.</td>
+      <td>Validates topology realism (heavy-tail, hubs) of generated networks.</td>
+    </tr>
+    <tr>
+      <td>Clustering coefficient</td>
+      <td>Local: <code>C_i = 2T_i / (k_i (k_i-1))</code>, where <code>T_i</code> is triangles incident to node <code>i</code>.</td>
+      <td>Measures triadic closure; high clustering indicates community / small-world structure.</td>
+    </tr>
+    <tr>
+      <td>Average path length</td>
+      <td><code>L = (2/(N(N-1))) · Σ_{i&lt;j} d(i,j)</code>.</td>
+      <td>Checks global reachability and small-world effect (<code>L</code> typically grows like <code>log N</code>).</td>
+    </tr>
+    <tr>
+      <td>Assortativity coefficient</td>
+      <td>Pearson correlation of endpoint attributes across edges; degree-assortativity often reported as <code>r</code>.</td>
+      <td>Quantifies homophily/heterophily (e.g., <code>r &gt; 0</code> assortative, <code>r &lt; 0</code> disassortative).</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Dynamic and Temporal Fidelity</td>
+      <td>Pearson correlation</td>
+      <td><code>r = cov(x, y) / (σ_x σ_y)</code>.</td>
+      <td>Tests temporal synchronization between simulated and empirical trajectories.</td>
+    </tr>
+    <tr>
+      <td>DTW distance</td>
+      <td><code>DTW(X,Y) = min_π Σ_{(i,j)∈π} δ(x_i, y_j)</code> over warping paths <code>π</code>.</td>
+      <td>Sequence alignment with time-warping; used for cascade / activity curve matching.</td>
+    </tr>
+    <tr>
+      <td>DeltaBias</td>
+      <td><code>ΔBias = Bias(sim) - Bias(emp)</code> (or absolute gap).</td>
+      <td>Measures directional error in simulated bias vs. an empirical baseline.</td>
+    </tr>
+    <tr>
+      <td>DeltaDiversity</td>
+      <td><code>ΔDiversity = Div(sim) - Div(emp)</code> (or absolute gap).</td>
+      <td>Evaluates whether content / exposure diversity is preserved during propagation.</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Opinion and Polarization</td>
+      <td>Polarization <code>P_z</code></td>
+      <td>Variance proxy: <code>P_z = (1/N) · Σ_i (x_i - x̄)^2</code>.</td>
+      <td>Tracks population-level opinion dispersion (convergence vs. fragmentation).</td>
+    </tr>
+    <tr>
+      <td>Global disagreement</td>
+      <td>Edge-averaged distance, e.g. <code>GD = (1/|E|) · Σ_{(i,j)∈E} |x_i - x_j|</code>.</td>
+      <td>Captures cross-edge heterogeneity (echo-chamber separation yields higher disagreement).</td>
+    </tr>
+    <tr>
+      <td>Neighbour correlation index (NCI)</td>
+      <td><code>NCI = (1/|E|) · Σ_{(i,j)∈E} 1[|x_i - x_j| &lt; ε]</code>.</td>
+      <td>Quantifies local homogeneity (fraction of “similar” neighbors under tolerance <code>ε</code>).</td>
+    </tr>
+    <tr>
+      <td>Spectral gap</td>
+      <td>Often reported via the second eigenvalue, e.g. <code>gap = 1 - |λ_2(W)|</code> for mixing matrix <code>W</code>.</td>
+      <td>Measures convergence/mixing speed; larger gap typically implies faster consensus.</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Diffusion and Influence</td>
+      <td>Reproduction number <code>R_0</code></td>
+      <td>Basic ratio form (SIR-style): <code>R_0 = β/γ</code> (infection rate over recovery rate).</td>
+      <td>Checks whether diffusion is supercritical (<code>R_0 &gt; 1</code>) or dies out (<code>R_0 &lt; 1</code>).</td>
+    </tr>
+    <tr>
+      <td>Influence spread</td>
+      <td>Expected activated count: <code>σ(S) = E[|Activated(S)|]</code> from seed set <code>S</code>.</td>
+      <td>Evaluates seed effectiveness and reach under IC/LT-style cascade processes.</td>
+    </tr>
+    <tr>
+      <td>Cascade size</td>
+      <td>Final activated / infected count (or its distribution) over runs.</td>
+      <td>Measures total reach of an information cascade and validates diffusion intensity.</td>
+    </tr>
+<tr>
+      <td rowspan="4">Behavioral Alignment</td>
+      <td>Micro-F1</td>
+      <td><code>F1 = 2PR/(P+R)</code> computed with micro-aggregated counts.</td>
+      <td>Per-instance prediction quality (e.g., stance/action classification, voter prediction).</td>
+    </tr>
+    <tr>
+      <td>Action distribution divergence</td>
+      <td>KL: <code>D_KL(P||Q)=Σ_a P(a) log(P(a)/Q(a))</code>; JS is a symmetric alternative.</td>
+      <td>Checks whether simulated engagement/action frequencies match real logs.</td>
+    </tr>
+    <tr>
+      <td>Cosine similarity</td>
+      <td><code>cos(e_a,e_b) = (e_a·e_b)/(||e_a||·||e_b||)</code> for embedding vectors.</td>
+      <td>Semantic alignment between simulated content and reference content.</td>
+    </tr>
+    <tr>
+      <td>State-level accuracy</td>
+      <td><code>Acc = (# correct states)/(# total states)</code>.</td>
+      <td>Validates discrete outcomes (e.g., election results, topic/state transitions).</td>
+    </tr>
+<tr>
+      <td rowspan="3">Efficiency and Scalability</td>
+      <td>Confusion index</td>
+      <td>Heuristic for “hard” cases (model-dependent; typically combines uncertainty and disagreement signals).</td>
+      <td>Enables selective LLM invocation (route easy steps to cheap rules; hard steps to LLMs).</td>
+    </tr>
+    <tr>
+      <td>Token reduction</td>
+      <td><code>TR = Tokens(baseline) / Tokens(method)</code> (or relative % reduction).</td>
+      <td>Quantifies compute savings from hybrid scheduling, caching, summarization, etc.</td>
+    </tr>
+    <tr>
+      <td>Wall-clock cost</td>
+      <td>Measured runtime / $ cost per simulation step or per episode.</td>
+      <td>Assesses feasibility at scale (million-agent runs, long horizons, repeated trials).</td>
+    </tr>
+<tr>
+      <td>Adversarial Robustness</td>
+      <td>Detector accuracy drop</td>
+      <td><code>ΔAcc = Acc(clean) - Acc(attack)</code>.</td>
+      <td>Stress-tests defenses against LLM-driven bots and adversarial coordination strategies.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Disclaimer
 
