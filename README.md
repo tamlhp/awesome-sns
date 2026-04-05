@@ -59,12 +59,12 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | [Social network analysis and agent-based modeling in social epidemiology](https://doi.org/10.1186/1742-5573-9-1) | 2012 | Exponential random graph models (ERGMs) | Epidemiol. Perspect. Innov. | - |
 | [Maximizing the Spread of Influence through a Social Network](https://doi.org/10.1145/956750.956769) | 2003 | Scale-Free Networks | KDD | - |
 | [The Structure and Function of Complex Networks](https://doi.org/10.1137/s003614450342480) | 2003 | Random Graph Models | SIAM Review | - |
-| [Emergence of Scaling in Random Networks](https://doi.org/10.1126/science.286.5439.509) | 1999 | Scale-Free Networks | Science | - |
-| [Collective dynamics of `small-world' networks](https://doi.org/10.1038/30918) | 1998 | Small-World Networks | Nature | - |
+| [Emergence of Scaling in Random Networks](https://doi.org/10.1126/science.286.5439.509) | 1999 | Scale-Free Networks | Science | [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.random_graphs.barabasi_albert_graph.html) |
+| [Collective dynamics of `small-world' networks](https://doi.org/10.1038/30918) | 1998 | Small-World Networks | Nature | [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.random_graphs.watts_strogatz_graph.html) |
 | [Social Network Effects on the Extent of Innovation Diffusion: A Computer Simulation](https://doi.org/10.1287/orsc.8.3.289) | 1997 | Attribute-driven generators | Organ. Sci. | - |
 | [The Small World Problem](https://doi.org/10.1037/e400002009-005) | 1967 | Small-World Networks | Psychology Today | - |
 | [Diffusion of Innovations](https://books.google.com/books/about/Diffusion_of_Innovations.html?id=9U1K5LjUOwEC) | 1962 | Attribute-driven generators | Free Press | - |
-| On Random Graphs I | 1959 | Random Graph Models | Publ. Math. Debrecen | - |
+| On Random Graphs I | 1959 | Random Graph Models | Publ. Math. Debrecen | [NetworkX](https://networkx.org/documentation/stable/reference/generated/networkx.generators.random_graphs.erdos_renyi_graph.html) |
 
 ## Information Diffusion
 
@@ -102,7 +102,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
-| [Extending the Hegselmann-Krause Model of Opinion Dynamics to include AI Oracles](https://arxiv.org/abs/2502.19701) | 2025 | Averaging Models: French-DeGroot and Friedkin-Johnsen | arXiv | - |
+| [Extending the Hegselmann-Krause Model of Opinion Dynamics to include AI Oracles](https://arxiv.org/abs/2502.19701) | 2025 | Averaging Models: French-DeGroot and Friedkin-Johnsen | arXiv | [Code](https://github.com/allengrodrigo/HKAI) |
 | [Opinion Dynamics and Collective Risk Perception: An Agent-Based Model of Institutional and Media Communication About Disasters](https://doi.org/10.18564/jasss.4479) | 2021 | Extensions and Modern Directions | JASSS | - |
 | [Modeling Public Opinion Polarization in Group Behavior by Integrating SIRS-Based Information Diffusion Process](https://doi.org/10.1155/2020/4791527) | 2020 | Bounded Confidence: Deffuant and Hegselmann-Krause | Complexity | - |
 | [Progressive Information Polarization in a Complex-Network Entropic Social Dynamics Model](https://doi.org/10.1109/access.2019.2902400) | 2019 | Bounded Confidence: Deffuant and Hegselmann-Krause | IEEE Access | - |
@@ -143,8 +143,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
-| [Ahead of the Spread: Agent-Driven Virtual Propagation for Early Fake News Detection](https://arxiv.org/abs/2601.02750) | 2026 | Misinformation and bot dynamics | arXiv | - |
-| [Towards Simulating Social Media Users with LLMs: Evaluating the Operational Validity of Conditioned Comment Prediction](https://doi.org/10.18653/v1/2026.wassa-1.16) | 2026 | Language-grounded cognition | - | - |
+| [Ahead of the Spread: Agent-Driven Virtual Propagation for Early Fake News Detection](https://arxiv.org/abs/2601.02750) | 2026 | Misinformation and bot dynamics | arXiv | [Code](https://github.com/Ironychen/AVOID) |
+| [Towards Simulating Social Media Users with LLMs: Evaluating the Operational Validity of Conditioned Comment Prediction](https://doi.org/10.18653/v1/2026.wassa-1.16) | 2026 | Language-grounded cognition | - | [Code](https://github.com/nsschw/Conditioned-Comment-Prediction) |
 | [VIRENA: Virtual Arena for Research, Education, and Democratic Innovation](https://arxiv.org/abs/2602.12207) | 2026 | Platform-level systems | - | - |
 | [AgentSociety: Large-Scale Simulation of LLM-Driven Generative Agents Advances Understanding of Human Behaviors and Society](https://arxiv.org/abs/2502.08691) | 2025 | Toward artificial societies | arXiv | [Code](https://github.com/tsinghua-fib-lab/AgentSociety) |
 | AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution | 2025 | Multi-Agent Coordination and Communication | MLSys | - |
@@ -152,28 +152,28 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | [BotSim: LLM-Powered Malicious Social Botnet Simulation](https://doi.org/10.1609/aaai.v39i13.33575) | 2025 | Action spaces | AAAI | [Code](https://github.com/QQQQQQBY/BotSim) |
 | [Can Generative Agent-Based Modeling Replicate the Friendship Paradox in Social Media Simulations?](https://doi.org/10.1145/3717867.3717895) | 2025 | Network structure emergence | WebSci | - |
 | [Can LLMs Simulate Social Media Engagement? A Study on Action-Guided Response Generation](https://arxiv.org/abs/2502.12073) | 2025 | Language-grounded cognition | arXiv | - |
-| [Can We Fix Social Media? Testing Prosocial Interventions using Generative Social Simulation](https://arxiv.org/abs/2508.03385) | 2025 | Prosocial interventions and political opinion | arXiv | - |
-| Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks | 2025 | Echo-chamber metrics | COLING | - |
-| [Extending the Hegselmann-Krause Model of Opinion Dynamics to include AI Oracles](https://arxiv.org/abs/2502.19701) | 2025 | Reproducing and extending classical phenomena | arXiv | - |
+| [Can We Fix Social Media? Testing Prosocial Interventions using Generative Social Simulation](https://arxiv.org/abs/2508.03385) | 2025 | Prosocial interventions and political opinion | arXiv | [Code](https://github.com/cssmodels/prosocialinterventions) |
+| Decoding Echo Chambers: LLM-Powered Simulations Revealing Polarization in Social Networks | 2025 | Echo-chamber metrics | COLING | [Code](https://github.com/ZongfangLiu/EchoChamberSim) |
+| [Extending the Hegselmann-Krause Model of Opinion Dynamics to include AI Oracles](https://arxiv.org/abs/2502.19701) | 2025 | Reproducing and extending classical phenomena | arXiv | [Code](https://github.com/allengrodrigo/HKAI) |
 | [GA-S3: Comprehensive Social Network Simulation with Group Agents](https://doi.org/10.18653/v1/2025.findings-acl.468) | 2025 | Multi-Agent Coordination and Communication | Findings of ACL | [Code](https://github.com/AI4SS/GAS-3) |
 | [Large Language Model Driven Agents for Simulating Echo Chamber Formation](https://arxiv.org/abs/2502.18138) | 2025 | LLM as a drop-in replacement for classical update rules | arXiv | - |
-| [LLM-Based Multi-Agent Systems are Scalable Graph Generative Models](https://doi.org/10.18653/v1/2025.findings-acl.78) | 2025 | Scalable agent coordination | ACL | - |
+| [LLM-Based Multi-Agent Systems are Scalable Graph Generative Models](https://doi.org/10.18653/v1/2025.findings-acl.78) | 2025 | Scalable agent coordination | ACL | [Code](https://github.com/graphagent/graphagent) |
 | [MegaAgent: A Large-Scale Autonomous LLM-based Multi-Agent System Without Predefined SOPs](https://doi.org/10.18653/v1/2025.findings-acl.259) | 2025 | Scalable agent coordination | Findings of ACL | [Code](https://github.com/Xtra-Computing/MegaAgent) |
 | [MTOS: A LLM-Driven Multi-topic Opinion Simulation Framework for Exploring Echo Chamber Dynamics](https://arxiv.org/abs/2510.12423) | 2025 | Multi-topic opinion dynamics with bounded confidence | arXiv | - |
-| [Network Formation and Dynamics Among Multi-LLMs](https://doi.org/10.1093/pnasnexus/pgaf317) | 2025 | Emergent networks | PNAS Nexus | - |
+| [Network Formation and Dynamics Among Multi-LLMs](https://doi.org/10.1093/pnasnexus/pgaf317) | 2025 | Emergent networks | PNAS Nexus | [Code](https://github.com/papachristoumarios/llm-network-formation) |
 | [RumorSphere: A Framework for Million-scale Agent-based Dynamic Simulation of Rumor Propagation](https://arxiv.org/abs/2509.02172) | 2025 | Hybrid topology with adaptive role switching | - | - |
-| [Simulating Rumor Spreading in Social Networks using LLM Agents](https://arxiv.org/abs/2502.01450) | 2025 | Platform-level systems | - | - |
-| [User Behavior Simulation with Large Language Model-based Agents](https://doi.org/10.1145/3708985) | 2025 | Persona and Identity Grounding | TOIS | - |
+| [Simulating Rumor Spreading in Social Networks using LLM Agents](https://arxiv.org/abs/2502.01450) | 2025 | Platform-level systems | - | [Code](https://github.com/neerajas-group/rumors-in-multi-agent) |
+| [User Behavior Simulation with Large Language Model-based Agents](https://doi.org/10.1145/3708985) | 2025 | Persona and Identity Grounding | TOIS | [Code](https://github.com/RUC-GSAI/YuLan-Rec) |
 | Affordable Generative Agents | 2024 | Cost-efficient inference | TMLR | [Code](https://github.com/AffordableGenerativeAgents/Affordable-Generative-Agents) |
-| [Can Large Language Model Agents Simulate Human Trust Behavior?](https://doi.org/10.52202/079017-0501) | 2024 | Emergent social phenomena | NeurIPS | - |
+| [Can Large Language Model Agents Simulate Human Trust Behavior?](https://doi.org/10.52202/079017-0501) | 2024 | Emergent social phenomena | NeurIPS | [Code](https://github.com/camel-ai/agent-trust) |
 | [ElectionSim: Massive Population Election Simulation Powered by Large Language Model Driven Agents](https://arxiv.org/abs/2410.20746) | 2024 | Persona and Identity Grounding | arXiv | [Code](https://github.com/amazingljy1206/ElectionSim) |
-| Emergence of Social Norms in Generative Agent Societies: Principles and Architecture | 2024 | Norm emergence | IJCAI | - |
-| [Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View](https://doi.org/10.18653/v1/2024.acl-long.782) | 2024 | Multi-Agent Coordination and Communication | ACL | - |
+| Emergence of Social Norms in Generative Agent Societies: Principles and Architecture | 2024 | Norm emergence | IJCAI | [Code](https://github.com/sxswz213/CRSEC) |
+| [Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View](https://doi.org/10.18653/v1/2024.acl-long.782) | 2024 | Multi-Agent Coordination and Communication | ACL | [Code](https://github.com/zjunlp/MachineSoM) |
 | From skepticism to acceptance: simulating the attitude dynamics toward fake news | 2024 | Misinformation and bot dynamics | IJCAI | [Code](https://github.com/LiuYuHan31/FPS) |
 | [Large Language Model-driven Multi-Agent Simulation for News Diffusion Under Different Network Structures](https://arxiv.org/abs/2410.15557) | 2024 | Exogenous static networks | arXiv | - |
 | [Oasis: Open agent social interaction simulations with one million agents](https://arxiv.org/abs/2411.11581) | 2024 | Planning and Goal-Directed Action | arXiv | [Code](https://github.com/camel-ai/oasis) |
-| [Project Sid: Many-agent simulations toward AI civilization](https://arxiv.org/abs/2411.00114) | 2024 | Toward artificial societies | arXiv | - |
-| [Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://doi.org/10.18653/v1/2024.findings-emnlp.297) | 2024 | Emergent social phenomena | EMNLP | - |
+| [Project Sid: Many-agent simulations toward AI civilization](https://arxiv.org/abs/2411.00114) | 2024 | Toward artificial societies | arXiv | [Code](https://github.com/camel-ai/project-sid) |
+| [Shall We Team Up: Exploring Spontaneous Cooperation of Competing LLM Agents](https://doi.org/10.18653/v1/2024.findings-emnlp.297) | 2024 | Emergent social phenomena | EMNLP | [Code](https://github.com/wuzengqing001225/SABM_ShallWeTeamUp) |
 | [Simulating Opinion Dynamics with Networks of LLM-based Agents](https://doi.org/10.18653/v1/2024.findings-naacl.211) | 2024 | Multi-Agent Coordination and Communication | Findings of NAACL | [Code](https://github.com/yunshiuan/llm-agent-opinion-dynamics) |
 | Sotopia: Interactive evaluation for social intelligence in language agents | 2024 | Emergent social phenomena | ICLR | [Code](https://github.com/sotopia-lab/sotopia) |
 | [The Stepwise Deception: Simulating the Evolution from True News to Fake News with LLM Agents](https://doi.org/10.18653/v1/2025.emnlp-main.1330) | 2024 | Misinformation and bot dynamics | EMNLP | [Code](https://github.com/LiuYuHan31/FUSE) |
@@ -186,7 +186,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | [Humanoid Agents: Platform for Simulating Human-like Generative Agents](https://doi.org/10.18653/v1/2023.emnlp-demo.15) | 2023 | Persona and Identity Grounding | EMNLP | [Code](https://github.com/HumanoidAgents/HumanoidAgents) |
 | [S3: Social-network Simulation System with Large Language Model-Empowered Agents](https://arxiv.org/abs/2307.14984) | 2023 | Memory: Episodic, Semantic, and Reflective | arXiv | - |
 | [Simulating Social Media Using Large Language Models to Evaluate Alternative News Feed Algorithms](https://arxiv.org/abs/2310.05984) | 2023 | Multi-Agent Coordination and Communication | arXiv | - |
-| [Theory of Mind for Multi-Agent Collaboration via Large Language Models](https://doi.org/10.18653/v1/2023.emnlp-main.13) | 2023 | Planning and Goal-Directed Action | EMNLP | - |
+| [Theory of Mind for Multi-Agent Collaboration via Large Language Models](https://doi.org/10.18653/v1/2023.emnlp-main.13) | 2023 | Planning and Goal-Directed Action | EMNLP | [Code](https://github.com/romanlee6/multi_LLM_comm) |
 | [War and peace (waragent): Large language model-based multi-agent simulation of world wars](https://arxiv.org/abs/2311.17227) | 2023 | Planning and Goal-Directed Action | arXiv | [Code](https://github.com/agiresearch/WarAgent) |
 | [Social Simulacra: Creating Populated Prototypes for Social Computing Systems](https://doi.org/10.1145/3526113.3545616) | 2022 | Agent Architecture for Social Simulation | UIST | - |
 | [Growing Artificial Societies: Social Science from the Bottom Up](https://mitpress.mit.edu/9780262550253/growing-artificial-societies/) | 1996 | Toward artificial societies | MIT Press | - |
@@ -196,26 +196,133 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 The survey catalogues 21 published datasets and benchmarks for validating structural fidelity, temporal dynamics, behavioral realism, and platform-scale effects. The table below highlights the main benchmark families surfaced in the paper appendix.
 
-| Benchmark / Dataset | Category | Platform | Evaluation Task | Used In |
-| --- | --- | --- | --- | --- |
-| [PPE Benchmark](https://github.com/amazingljy1206/ElectionSim) | Political Behavior and Elections | Twitter | Voter preference prediction | ElectionSim |
-| ANES 2020 | Political Behavior and Elections | Survey | Demographic calibration | ElectionSim |
-| ITA-ELECTION-22 | Political Behavior and Elections | Twitter | Political conversation simulation | SOSMC |
-| Vaccination Engagement | User Behavior and Engagement | X | Action-guided engagement | CLSSM |
-| CCP-DE | User Behavior and Engagement | X | Comment prediction (DE) | TSSMU |
-| CCP-EN | User Behavior and Engagement | X | Comment prediction (EN) | TSSMU |
-| CCP-LU | User Behavior and Engagement | RTL | Comment prediction (LU) | TSSMU |
-| [Y Social traces](https://github.com/YSocialTwin/YSocial) | User Behavior and Engagement | Synthetic | Digital-twin validation | Y Social |
-| Rumor Event Suite | Misinformation and Rumor | Twitter | Temporal rumor dynamics | RumorSphere |
-| [BotSim-24](https://github.com/QQQQQQBY/BotSim) | Misinformation and Rumor | Reddit | Adversarial bot simulation | BotSim |
-| [FPS Fake-News](https://github.com/LiuYuHan31/FPS) | Misinformation and Rumor | Synthetic | Attitude dynamics to fake news | FPS |
-| [FUSE Mutation](https://github.com/LiuYuHan31/FUSE) | Misinformation and Rumor | Synthetic | Stepwise news deception | FUSE |
-| Gender Discrimination | Controversial-Topic Propagation | Weibo | Emotion and event propagation | S3 |
-| Nuclear Energy | Controversial-Topic Propagation | Weibo | Attitude-change propagation | S3 |
-| [LLM Opinion Dynamics](https://github.com/yunshiuan/llm-agent-opinion-dynamics) | Opinion Dynamics and Echo Chambers | Synthetic | Opinion convergence | SODNL |
-| [OASIS Twitter-like](https://github.com/camel-ai/oasis) | Opinion Dynamics and Echo Chambers | Synthetic | Group polarization | OASIS |
-| [OASIS Reddit-like](https://github.com/camel-ai/oasis) | Opinion Dynamics and Echo Chambers | Synthetic | Herd effect and misinformation | OASIS |
-| [SNAP Collection](https://snap.stanford.edu/data/) | Network Structure | Multi | Network analysis and topology generation | NetworkX, igraph |
+<table>
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Benchmark / Dataset</th>
+      <th>Platform</th>
+      <th>Evaluation Task</th>
+      <th>Used In</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">Political Behavior and Elections</td>
+      <td><a href="https://github.com/amazingljy1206/ElectionSim">PPE Benchmark</a></td>
+      <td>Twitter</td>
+      <td>Voter preference prediction</td>
+      <td>ElectionSim</td>
+    </tr>
+    <tr>
+      <td>ANES 2020</td>
+      <td>Survey</td>
+      <td>Demographic calibration</td>
+      <td>ElectionSim</td>
+    </tr>
+    <tr>
+      <td>ITA-ELECTION-22</td>
+      <td>Twitter</td>
+      <td>Political conversation simulation</td>
+      <td>SOSMC</td>
+    </tr>
+    <tr>
+      <td rowspan="5">User Behavior and Engagement</td>
+      <td>Vaccination Engagement</td>
+      <td>X</td>
+      <td>Action-guided engagement</td>
+      <td>CLSSM</td>
+    </tr>
+    <tr>
+      <td>CCP-DE</td>
+      <td>X</td>
+      <td>Comment prediction (DE)</td>
+      <td>TSSMU</td>
+    </tr>
+    <tr>
+      <td>CCP-EN</td>
+      <td>X</td>
+      <td>Comment prediction (EN)</td>
+      <td>TSSMU</td>
+    </tr>
+    <tr>
+      <td>CCP-LU</td>
+      <td>RTL</td>
+      <td>Comment prediction (LU)</td>
+      <td>TSSMU</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/YSocialTwin/YSocial">Y Social traces</a></td>
+      <td>Synthetic</td>
+      <td>Digital-twin validation</td>
+      <td>Y Social</td>
+    </tr>
+    <tr>
+      <td rowspan="4">Misinformation and Rumor</td>
+      <td>Rumor Event Suite</td>
+      <td>Twitter</td>
+      <td>Temporal rumor dynamics</td>
+      <td>RumorSphere</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/QQQQQQBY/BotSim">BotSim-24</a></td>
+      <td>Reddit</td>
+      <td>Adversarial bot simulation</td>
+      <td>BotSim</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LiuYuHan31/FPS">FPS Fake-News</a></td>
+      <td>Synthetic</td>
+      <td>Attitude dynamics to fake news</td>
+      <td>FPS</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/LiuYuHan31/FUSE">FUSE Mutation</a></td>
+      <td>Synthetic</td>
+      <td>Stepwise news deception</td>
+      <td>FUSE</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Controversial-Topic Propagation</td>
+      <td>Gender Discrimination</td>
+      <td>Weibo</td>
+      <td>Emotion and event propagation</td>
+      <td>S3</td>
+    </tr>
+    <tr>
+      <td>Nuclear Energy</td>
+      <td>Weibo</td>
+      <td>Attitude-change propagation</td>
+      <td>S3</td>
+    </tr>
+    <tr>
+      <td rowspan="3">Opinion Dynamics and Echo Chambers</td>
+      <td><a href="https://github.com/yunshiuan/llm-agent-opinion-dynamics">LLM Opinion Dynamics</a></td>
+      <td>Synthetic</td>
+      <td>Opinion convergence</td>
+      <td>SODNL</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/camel-ai/oasis">OASIS Twitter-like</a></td>
+      <td>Synthetic</td>
+      <td>Group polarization</td>
+      <td>OASIS</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/camel-ai/oasis">OASIS Reddit-like</a></td>
+      <td>Synthetic</td>
+      <td>Herd effect and misinformation</td>
+      <td>OASIS</td>
+    </tr>
+    <tr>
+      <td>Network Structure</td>
+      <td><a href="https://snap.stanford.edu/data/">SNAP Collection</a></td>
+      <td>Multi</td>
+      <td>Network analysis and topology generation</td>
+      <td>NetworkX, igraph</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Evaluation Metrics
 
