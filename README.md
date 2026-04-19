@@ -52,6 +52,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Network Models
 
+![Network models illustration](figs/network-models.png)
+
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
 | [Homophily in An Artificial Social Network of Agents Powered By Large Language Models](https://doi.org/10.21203/rs.3.rs-3096289/v1) | 2023 | Attribute-driven generators | Br. J. Psychol. | - |
@@ -67,6 +69,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | On Random Graphs I | 1959 | Random Graph Models | Publ. Math. Debrecen | - |
 
 ## Information Diffusion
+
+![Information diffusion illustration](figs/information-diffusion.png)
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
@@ -100,6 +104,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 ## Opinion Dynamics
 
+![Opinion dynamics illustration](figs/opinion-dynamics.png)
+
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
 | [Extending the Hegselmann-Krause Model of Opinion Dynamics to include AI Oracles](https://arxiv.org/abs/2502.19701) | 2025 | Averaging Models: French-DeGroot and Friedkin-Johnsen | arXiv | - |
@@ -114,6 +120,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | [A formal theory of social power](https://doi.org/10.1037/h0046123) | 1956 | Averaging Models: French-DeGroot and Friedkin-Johnsen | Psychol. Rev. | - |
 
 ## Rule-Based Agent-Based Models
+
+![Rule-based agent-based models illustration](figs/rule-based-abm.png)
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
@@ -140,6 +148,8 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 | [Micromotives and Macrobehavior](https://wwnorton.com/books/9780393092677) | 1978 | Schelling segregation | W. W. Norton & Company | - |
 
 ## LLM-Based Agentic Simulation
+
+![LLM-based agentic simulation illustration](figs/llm-based-simulation.png)
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
