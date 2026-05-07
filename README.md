@@ -2,7 +2,6 @@
 # Awesome Social Network Simulation: From Random Graphs to Generative Agents
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![GitHub stars](https://img.shields.io/github/stars/tamlhp/awesome-sns?style=social)]
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-sns)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
