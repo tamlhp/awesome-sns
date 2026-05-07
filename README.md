@@ -5,6 +5,7 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-sns)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
+Check out our working paper:
 **A Survey of Social Network Simulation in the LLM Era: From Classical Models to Generative Agents** [View on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6724919)
 
 A collection of academic articles, published methodology, and datasets on the subject of **Social Network Simulation** from classical models to LLM-based agentic simulation.
