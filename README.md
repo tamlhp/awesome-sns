@@ -5,6 +5,8 @@
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=tamlhp.awesome-sns)
 <img src="https://img.shields.io/badge/Contributions-Welcome-278ea5" alt="Contrib"/>
 
+**A Survey of Social Network Simulation in the LLM Era: From Classical Models to Generative Agents** [View on SSRN]([https://ssrn.com](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6724919))
+
 A collection of academic articles, published methodology, and datasets on the subject of **Social Network Simulation** from classical models to LLM-based agentic simulation.
 
 <!-- This README follows the manuscript structure directly: five paradigm sections with one paper table per paradigm, followed by dedicated dataset/benchmark and evaluation-metric sections. The survey spans 97 papers across 1951-2026, five application domains, 38 implementations, 21 benchmarks/datasets, and 22 evaluation metrics. -->
