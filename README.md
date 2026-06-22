@@ -10,9 +10,6 @@ Check out our working paper:
 
 A collection of academic articles, published methodology, and datasets on the subject of **Social Network Simulation** from classical models to LLM-based agentic simulation.
 
-<!-- This README follows the manuscript structure directly: five paradigm sections with one paper table per paradigm, followed by dedicated dataset/benchmark and evaluation-metric sections. The survey spans 97 papers across 1951-2026, five application domains, 38 implementations, 21 benchmarks/datasets, and 22 evaluation metrics. -->
-
-<!-- The manuscript metadata currently still contains placeholder ACM DOI and venue fields, so this repository intentionally avoids unverified publication claims until a public paper link is finalized. -->
 
 - [Taxonomy](#taxonomy)
 - [Network Models](#network-models)
@@ -24,19 +21,17 @@ A collection of academic articles, published methodology, and datasets on the su
 - [Evaluation Metrics](#evaluation-metrics)
 - [Contributing](#contributing)
 
-<!-- ## Citation
+## Citation
 
 If you use this repository, please cite the survey manuscript. A public DOI or finalized venue entry will be added once the paper metadata is finalized.
 
 ```bibtex
-@misc{pham2026social-network-simulation,
-  title = {A Survey of Social Network Simulation: From Small Worlds to Agentic AI},
-  author = {Pham, Trinh and Nguyen, Quoc Viet Hung and Yin, Hongzhi and Nguyen, Thanh Tam},
-  year = {2026},
-  note = {Survey manuscript},
-  url = {https://github.com/tamlhp/awesome-sns}
+@article{nguyen6790227survey,
+  title={A Survey of Social Network Simulation in the LLM Era: From Classical Models to Generative Agents},
+  author={Nguyen, Thanh Tam and Pham, Trinh and Huynh, Viet and Nguyen, Minh Hieu and Vo, Bay and Qu, Liang and Li, Jianxin and Yin, Hongzhi and Nguyen, Quoc Viet Hung},
+  journal={Available at SSRN 6790227}
 }
-``` -->
+```
 
 ## Taxonomy
 
