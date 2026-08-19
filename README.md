@@ -150,6 +150,7 @@ Each table below is grounded in the manuscript citations and keeps the paper tit
 
 | Paper | Year | Category | Venue | Code |
 | --- | --- | --- | --- | --- |
+| [CityReal: Human-Aligned Urban Behavior and City Dynamics Simulation with Large-Scale LLM Agents](https://arxiv.org/abs/2608.16897) | 2026 | Urban and city dynamics | arXiv | - |
 | [Ahead of the Spread: Agent-Driven Virtual Propagation for Early Fake News Detection](https://arxiv.org/abs/2601.02750) | 2026 | Misinformation and bot dynamics | arXiv | [Code](https://github.com/Ironychen/AVOID) |
 | [Towards Simulating Social Media Users with LLMs: Evaluating the Operational Validity of Conditioned Comment Prediction](https://doi.org/10.18653/v1/2026.wassa-1.16) | 2026 | Language-grounded cognition | - | [Code](https://github.com/nsschw/Conditioned-Comment-Prediction) |
 | [VIRENA: Virtual Arena for Research, Education, and Democratic Innovation](https://arxiv.org/abs/2602.12207) | 2026 | Platform-level systems | - | - |
